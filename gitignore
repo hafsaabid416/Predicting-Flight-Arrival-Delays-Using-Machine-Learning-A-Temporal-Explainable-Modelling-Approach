@@ -1,0 +1,56 @@
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Jupyter ───────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data files (too large for git) ───────────────────────────────────
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# ── Kaggle cache ──────────────────────────────────────────────────────
+.cache/
+~/.cache/kagglehub/
+
+# ── Model artefacts ───────────────────────────────────────────────────
+*.joblib
+*.model
+models/
+
+# ── Environments ──────────────────────────────────────────────────────
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# ── OS artefacts ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ── IDE ───────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Credentials ───────────────────────────────────────────────────────
+kaggle.json
+.kaggle/
