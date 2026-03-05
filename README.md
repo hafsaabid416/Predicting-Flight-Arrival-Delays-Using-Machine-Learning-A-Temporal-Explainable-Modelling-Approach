@@ -96,7 +96,7 @@ pip install -r requirements.txt
 
 ### 3. Run the notebook
 ```bash
-jupyter notebook msc_grp_project.ipynb
+jupyter notebook msc_grp_project_final.ipynb
 ```
 
 Datasets are downloaded automatically via `kagglehub` on first run. Ensure your [Kaggle API credentials](https://www.kaggle.com/docs/api) are configured at `~/.kaggle/kaggle.json`.
